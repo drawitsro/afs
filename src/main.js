@@ -46,11 +46,11 @@ async function createPixiApp(width, height) {
     return app;
 }
 
-// Load JSON data and build the editor.
 async function init() {
     try {
         console.log("Initializing application...");
-        const response = await fetch('/data/data.json');
+        // Use a relative path instead of an absolute one:
+        const response = await fetch('data/data.json');
         if (!response.ok) {
             throw new Error(`Failed to fetch data.json (status ${response.status})`);
         }
