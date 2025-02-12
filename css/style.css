@@ -1,0 +1,62 @@
+/* General styling */
+body {
+    font-family: sans-serif;
+    background: #f7f7f7;
+  }
+  
+  /* Fullscreen overlay for image preview */
+  .full-overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.85);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  #overlayContainer {
+    width: 90%;
+    height: 90%;
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 20px; right: 40px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+    z-index: 10000;
+  }
+  
+  /* Section styling */
+  .section {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    background: #fff;
+  }
+  
+  /* Slider container styling */
+  .slider-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  /* Make each slider group display inline-block */
+  .slider-container .form-group {
+    display: inline-block;
+    min-width: 150px;
+  }
+  
+  /* Canvas border for Pixi instances */
+  .images-container canvas {
+    border: 1px solid #ccc;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PixiJS Hello World</title>
+    <style>
+        body { margin: 0; }
+        canvas { display: block; }
+    </style>
+</head>
+<body>
+
+<script src="https://pixijs.download/release/pixi.js"></script>
+<script type="module">
+    try {
+        const app = new PIXI.Application();
+        await app.init({ width: 640, height: 360 })
+        document.body.appendChild(app.canvas);
+
+        const basicText = new PIXI.Text('PixiJS Hello World!',{fontFamily : 'Arial', fontSize: 24, fill : 0xffffff, align : 'center'});
+        basicText.x = (app.renderer.width - basicText.width) / 2;
+        basicText.y = (app.renderer.height - basicText.height) / 2;
+
+        app.stage.addChild(basicText);
+
+        console.log("✅ PixiJS Hello World example loaded successfully.");
+    } catch (error) {
+        console.error("❌ PixiJS Hello World example failed to load:", error);
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Image Filters Editor</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container-fluid p-2">
+    <h1 class="my-2">Image Filters Editor</h1>
+    <div id="editor"></div>
+    <div id="saveContainer" class="text-center my-2">
+      <button id="saveBtn" class="btn btn-primary btn-sm">Save JSON</button>
+      <button id="loadBtn" class="btn btn-secondary btn-sm">Load JSON</button>
+      <!-- Hidden file input for loading JSON -->
+      <input type="file" id="loadInput" style="display:none" accept=".json" />
+    </div>
+  </div>
+
+  <!-- Fullscreen overlay for image preview -->
+  <div id="overlay" class="full-overlay">
+    <span class="close-button" id="closeOverlay">&times;</span>
+    <div id="overlayContainer"></div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://pixijs.download/release/pixi.js"></script>
+  <script src="https://pixijs.io/filters/dist/pixi-filters.js"></script>
+  <script type="module" src="src/main.js"></script>
+  <!-- Optional Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

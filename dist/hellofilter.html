@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>PixiJS Hello Filter</title>
+    <style>
+        body { margin: 0; }
+        canvas { display: block; }
+    </style>
+</head>
+<body>
+
+<script src="https://pixijs.download/release/pixi.js"></script>
+<script>
+  const app = new PIXI.Application({ width: 200, height: 200, backgroundColor: 0xaaaaaa });
+  document.body.appendChild(app.view);
+
+  const sprite = PIXI.Sprite.from('data/BL/BL_DSC00314.jpg');
+  app.stage.addChild(sprite);
+
+  const colorMatrix = new PIXI.filters.ColorMatrixFilter();
+  sprite.filters = [colorMatrix];
+</script>
+
+</body>
+</html>

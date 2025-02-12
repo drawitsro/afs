@@ -1,0 +1,237 @@
+{
+  "BL": {
+    "files": [
+      "DSC00314.jpg",
+      "DSC00335.jpg"
+    ],
+    "exposure": {
+      "tp": "exp",
+      "val": 1
+    },
+    "hsv": {
+      "tp": "hsv",
+      "val": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "note": {
+      "tp": "str",
+      "val": "this is some text"
+    },
+    "ok": {
+      "tp": "bool",
+      "val": 1
+    }
+  },
+  "CH": {
+    "files": [
+      "DSC00318.jpg",
+      "DSC00334.jpg"
+    ],
+    "exposure": {
+      "tp": "exp",
+      "val": 1
+    },
+    "hsv": {
+      "tp": "hsv",
+      "val": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "note": {
+      "tp": "str",
+      "val": "this is some text"
+    },
+    "ok": {
+      "tp": "bool",
+      "val": 1
+    }
+  },
+  "DKW": {
+    "files": [
+      "DSC00313.jpg",
+      "DSC00333.jpg"
+    ],
+    "exposure": {
+      "tp": "exp",
+      "val": 1
+    },
+    "hsv": {
+      "tp": "hsv",
+      "val": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "note": {
+      "tp": "str",
+      "val": "this is some text"
+    },
+    "ok": {
+      "tp": "bool",
+      "val": 1
+    }
+  },
+  "DM": {
+    "files": [
+      "DSC00315.jpg",
+      "DSC00326.jpg"
+    ],
+    "exposure": {
+      "tp": "exp",
+      "val": 1
+    },
+    "hsv": {
+      "tp": "hsv",
+      "val": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "note": {
+      "tp": "str",
+      "val": "this is some text"
+    },
+    "ok": {
+      "tp": "bool",
+      "val": 1
+    }
+  },
+  "DWL": {
+    "files": [
+      "DSC00316.jpg",
+      "DSC00337.jpg"
+    ],
+    "exposure": {
+      "tp": "exp",
+      "val": 1
+    },
+    "hsv": {
+      "tp": "hsv",
+      "val": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "note": {
+      "tp": "str",
+      "val": "this is some text"
+    },
+    "ok": {
+      "tp": "bool",
+      "val": 1
+    }
+  },
+  "MA": {
+    "files": [
+      "DSC00317.jpg",
+      "DSC00325.jpg"
+    ],
+    "exposure": {
+      "tp": "exp",
+      "val": 1
+    },
+    "hsv": {
+      "tp": "hsv",
+      "val": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "note": {
+      "tp": "str",
+      "val": "this is some text"
+    },
+    "ok": {
+      "tp": "bool",
+      "val": 1
+    }
+  },
+  "NA": {
+    "files": [
+      "DSC00338.jpg",
+      "DSC00339.jpg",
+      "DSC00340.jpg",
+      "DSC00341.jpg"
+    ],
+    "exposure": {
+      "tp": "exp",
+      "val": 1
+    },
+    "hsv": {
+      "tp": "hsv",
+      "val": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "note": {
+      "tp": "str",
+      "val": "this is some text"
+    },
+    "ok": {
+      "tp": "bool",
+      "val": 1
+    }
+  },
+  "RUP": {
+    "files": [
+      "DSC00319.jpg"
+    ],
+    "exposure": {
+      "tp": "exp",
+      "val": 1
+    },
+    "hsv": {
+      "tp": "hsv",
+      "val": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "note": {
+      "tp": "str",
+      "val": "this is some text"
+    },
+    "ok": {
+      "tp": "bool",
+      "val": 1
+    }
+  },
+  "WL": {
+    "files": [
+      "DSC00312.jpg",
+      "DSC00324.jpg"
+    ],
+    "exposure": {
+      "tp": "exp",
+      "val": 1
+    },
+    "hsv": {
+      "tp": "hsv",
+      "val": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "note": {
+      "tp": "str",
+      "val": "this is some text"
+    },
+    "ok": {
+      "tp": "bool",
+      "val": 1
+    }
+  }
+}

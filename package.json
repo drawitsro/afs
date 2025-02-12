@@ -1,0 +1,28 @@
+{
+  "name": "afs",
+  "version": "1.0.0",
+  "description": "AffordableSeating helper web pages",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drawitsro/afs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/drawitsro/afs/issues"
+  },
+  "homepage": "https://github.com/drawitsro/afs#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cssnano": "^7.0.6",
+    "postcss": "^8.5.2",
+    "vite": "^6.1.0"
+  }
+}
