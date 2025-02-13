@@ -14,7 +14,7 @@
     },
     "note": {
       "tp": "str",
-      "val": "Add some notes here."
+      "val": "Here the 2. (chair seat back support reference) is better."
     },
     "ok": {
       "tp": "bool",
@@ -40,7 +40,7 @@
     },
     "note": {
       "tp": "str",
-      "val": "Add some notes here."
+      "val": "1. (seat) is better"
     },
     "ok": {
       "tp": "bool",
@@ -66,7 +66,7 @@
     },
     "note": {
       "tp": "str",
-      "val": "Add some notes here."
+      "val": "1. (seat) is better"
     },
     "ok": {
       "tp": "bool",
@@ -92,7 +92,7 @@
     },
     "note": {
       "tp": "str",
-      "val": "Add some notes here."
+      "val": "1. (seat) is better"
     },
     "ok": {
       "tp": "bool",
@@ -118,7 +118,7 @@
     },
     "note": {
       "tp": "str",
-      "val": "Add some notes here."
+      "val": "This is how our DWL look like. We probably make render or photo with complete albedo."
     },
     "ok": {
       "tp": "bool",
@@ -144,7 +144,7 @@
     },
     "note": {
       "tp": "str",
-      "val": "Add some notes here."
+      "val": "1. (seat) is better"
     },
     "ok": {
       "tp": "bool",
@@ -170,7 +170,7 @@
     },
     "note": {
       "tp": "str",
-      "val": "Add some notes here."
+      "val": "1. (seat) is better"
     },
     "ok": {
       "tp": "bool",
@@ -197,7 +197,7 @@
     },
     "note": {
       "tp": "str",
-      "val": "Add some notes here."
+      "val": "This visual is ok"
     },
     "ok": {
       "tp": "bool",
@@ -222,7 +222,7 @@
     },
     "note": {
       "tp": "str",
-      "val": "Add some notes here."
+      "val": "1. (seat) is better"
     },
     "ok": {
       "tp": "bool",
