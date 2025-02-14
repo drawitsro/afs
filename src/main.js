@@ -239,13 +239,13 @@ async function createFolderSection(container, folderKey, folderData) {
         // Add a numbered overlay.
         const numberText = new PIXI.Text((i + 1).toString(), {
             fontFamily: 'Arial',
-            fontSize: 20,
+            fontSize: 80,
             fill: '#ffffff',
             stroke: '#000000',
-            strokeThickness: 2
+            strokeThickness: 4
         });
-        numberText.x = 5;
-        numberText.y = 5;
+        numberText.x = 10;
+        numberText.y = 10;
         sprite.addChild(numberText);
         
         // On click: show overlay image.
